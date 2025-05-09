@@ -36,3 +36,8 @@ def contactus(request) :
     return render(request, 'index_pages/contactus.html', {
         'web_title' : "Invisyx".title(),
     })
+
+def our_services(request) :
+    return render(request, 'index_pages/our_services.html', {
+        'web_title' : "Invisyx".title(),
+    })
